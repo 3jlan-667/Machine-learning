@@ -1,0 +1,4 @@
+Using email spam dataset where data is a collection of email messages labeled as either spam or non-spam.
+It is clearly a classification problem.
+The tareget variable is the email label which indicates whether an email is spam or non-spam
+The model is expected to learn patterns from email content and predict wither a new email is spam or non-spam.
