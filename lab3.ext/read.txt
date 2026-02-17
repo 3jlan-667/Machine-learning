@@ -1,1 +1,6 @@
+In this lab, we analyze supermarket sales data, including:
+branch, city, customer type, gender, product category, unit price, quantity, tax, total price, and reward points.
 
+The data was explored using bar charts, histograms, scatter plots, and correlation analysis to identify sales trends and customer patterns.
+
+Tools: Python 3, Pandas, Matplotlib, Seaborn
