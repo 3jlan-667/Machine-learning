@@ -12,5 +12,6 @@ Where Changing the "top_k" value didn't impact performance because the dataset o
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Task 4
 Is done in 7.3, 
-The optional feature selection was "not beneficial" because the model's accuracy remained identical. The "haversine_rest_to_cust_km" feature proved redundant; when removed, its importance score (0.062) was simply "absorbed by Delivery_Distance_km", which rose to 0.071. Since the model just reallocated the same predictive weight to a similar distance metric, the final performance stayed the same.
+The optional feature selection was "not beneficial" because the model's accuracy remained identical. The "haversine_rest_to_cust_km" feature proved redundant; when
+removed, its importance score (0.062) was simply "absorbed by Delivery_Distance_km", which rose to 0.071. Since the model just reallocated the same predictive weight to a similar distance metric, the final performance stayed the same.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
